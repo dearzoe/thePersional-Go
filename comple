@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main()  {
+	var a,b complex64
+	a = 2 + 2i
+	b = 3 + 3i
+	c := a*b
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+}
