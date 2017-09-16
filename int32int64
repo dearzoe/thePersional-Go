@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+var a int = 1
+
+func main()  {
+	var a int32
+	var b int64
+	a = 1
+	b = 2
+	result := a+b//不同类型相加会报错
+	fmt.Print(result)
+}
