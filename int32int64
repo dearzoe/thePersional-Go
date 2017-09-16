@@ -12,3 +12,17 @@ func main()  {
 	result := a+b//不同类型相加会报错
 	fmt.Print(result)
 }
+/*package main
+
+import "fmt"
+
+var a int = 1
+
+func main()  {
+	var a int64
+	var b int64
+	a = 1
+	b = 2
+	result := a+b//不同类型相加会报错
+	fmt.Printf("%T\n %v",result,result)
+}*/
